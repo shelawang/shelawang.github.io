@@ -160,6 +160,19 @@ p img {
   border: none;
 }
 
+img.icon {
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  vertical-align: middle;
+  text-align: center;
+  border: none;
+}
+
+img.icon:hover {
+  opacity: 0.5;
+}
+
 /* Code blocks */
 
 code, pre {
